@@ -1,0 +1,246 @@
+.nspriceboxcontent {
+	float: left;
+    clear: both;
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;    
+}
+
+.ns-prod-boxsmall {
+	float: left;
+	width: 25%;
+	padding-right: 10px;
+}
+
+.ns-prod-boxsmall-price {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.nspriceline {
+	text-decoration: line-through;
+	color: #CCCCCC;
+}
+
+.removewishclass {
+	cursor: pointer;
+	text-align:center;
+}
+
+.viewIconNsLoader {
+	display: none;
+}
+.vNSalign{
+	line-height: 28px;
+	cursor: pointer;
+}
+.vNSalignFA{
+	cursor: pointer;
+}
+.widNSmodal{
+	width: 100%;
+	clear: both;
+}
+.nswLoopProduct {
+	padding: 0;
+}
+.nswSingleProduct {
+	padding: 10px 0;
+}
+.ns-add-to-wishlist-color{
+	color: red;
+}
+
+#ns-dialog{
+	z-index: 1000;
+}
+.ns-dialog-div{
+	background-color: #fff;
+	border-radius: 5px;
+
+}
+.ns-dialog-div .ui-dialog-titlebar button{
+	float: right;
+	padding: 0;
+}
+.ns-dialog-div .ui-dialog-titlebar .ui-dialog-title{
+	padding-left: 25%;
+}
+
+.ns-div-open-modal{
+	cursor: pointer;
+	width: fit-content;
+	float: left;
+}
+
+.ns-textarea-dialog{
+	position: relative;
+	resize: none;
+	width: 100%;
+}
+.ns-span-to{
+	padding-left: 30px;
+	
+}
+.ns-layer-wishlist{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+.ns-modal-wishlist-layer{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, .4);
+	top: 0;
+	z-index: 9999;
+	overflow: hidden;
+	
+}
+.ns-modal-wishlist{
+	display: none;
+	position: absolute;
+	width: 550px;
+	height: 450px;
+	background-color: #fff;
+	top: calc( 50% - 225px );
+	left: calc( 50% - 275px );
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,.75);
+}
+#ns-close-modal{
+	padding-right: 5px;
+	float: right;
+	cursor: pointer;
+}
+.ns-modal-opened{
+	overflow-y: hidden;
+}
+.ns-modal-title{
+	width: 95%;
+	float: left;
+}
+.ns-modal-title-span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #3C3C43;
+	font-size: 30px;
+}
+.ns-div-modal-header{
+	display: flex;
+	background-color: #C0C0C0;
+	border-bottom: 1px solid rgba(0,0,0,.75);
+	border-radius: 5px 5px 0 0;
+}
+.ns-wp-name-site{
+	font-size: 25px;
+	text-align: center;
+}
+.ns-textarea-size{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.ns-div-share-now{
+	text-align: center;
+	margin-top: 20px;
+}
+.ns-div-logged-in{
+	text-align: center;
+	margin-top: 20%;
+}
+.ns-span-class-share{
+	margin-bottom: 10px; 
+}
+.ns-div-response{
+	text-align: center;
+}
+.ns-div-image-done{
+	display: inline;
+	margin-top: 70px;
+	-webkit-animation-name: bounce; 
+	animation-name: bounce; 
+	-webkit-animation: bounce 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce { 
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+	40% {-webkit-transform: translateY(-30px);} 
+	60% {-webkit-transform: translateY(-15px);} 
+ } 
+ 
+ @keyframes bounce { 
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+	40% {transform: translateY(-30px);} 
+	60% {transform: translateY(-15px);} 
+ }
+.ns-try-again{
+	margin-right: 0 !important;
+}
+#ns-your-name{
+	width: 100%;
+}
+.ns-share-imgs-margin{
+	margin: 5px;
+}
+.ns-img-for-non-logged{
+	opacity: 0.3;
+}
+.ns-wishlist-icons-container{
+	width: 100%;
+	text-align: center;
+}
+.ns-wishlist-iconswidget, .ns-wishlist-iconsmodal{
+	width: 25%;
+    margin: 0 auto;
+	display: block;
+	padding-top: 10px;
+	text-align: center;
+	
+}
+i.ns-wishlist-iconswidget, i.ns-wishlist-iconsmodal{
+	position: relative;
+	left: 2px;
+}
+.ns-wishlist-iconspage{
+	float: left;
+	margin-right: 20px; 
+}
+i.ns-wishlist-iconspage{
+	margin-top: 5px; 
+}
+.ns-show-date-css{
+	width: 20%;
+}
+
+@media only screen and (max-width : 760px) {
+	.ns-modal-wishlist{
+		display: none;
+		position: absolute;
+		width: 90%;
+		/* height: 450px; */
+		background-color: #fff;
+		left: 5%;
+		border-radius: 5px;
+		border: 1px solid rgba(0,0,0,.75);
+	}
+	#TB_window{
+		width: 90% !important;
+		left: 5% !important;
+		/* top: 5%; */
+		margin-top: unset !important;
+		margin-left: unset !important;
+		top: 5% !important;
+		/* top: 5%; */
+	}
+	#TB_ajaxContent{
+		width: 100% !important;
+	}
+}
